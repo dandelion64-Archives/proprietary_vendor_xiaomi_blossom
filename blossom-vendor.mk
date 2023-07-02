@@ -5,3 +5,6 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/blossom
 
+
+PRODUCT_PACKAGES += \
+    libfmjni
