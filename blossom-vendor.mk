@@ -5,6 +5,28 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/blossom
 
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/Himax_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/Himax_mpfw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_mpfw.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/chipone-tddi-tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/chipone-tddi-tianma.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/chipone-tddi-truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/chipone-tddi-truly.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/focaltech_aa_ts_fw_helitai.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_aa_ts_fw_helitai.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/focaltech_ab_ts_fw_helitai.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech_ab_ts_fw_helitai.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/gt1151_default_firmware2.img:$(TARGET_COPY_OUT_VENDOR)/firmware/gt1151_default_firmware2.img \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/hdl_firmware.img:$(TARGET_COPY_OUT_VENDOR)/firmware/hdl_firmware.img \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/hx_criteria.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/hx_criteria.csv \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/ilitek_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ilitek_fw.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_djn_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_djn_fw.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_djn_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_djn_mp.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_ebbg_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_ebbg_fw.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_ebbg_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_ebbg_mp.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_hlt_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_hlt_fw.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_hlt_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_hlt_mp.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_truly_fw.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_truly_mp.bin
 
 PRODUCT_PACKAGES += \
     libfmjni
