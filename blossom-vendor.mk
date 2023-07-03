@@ -26,7 +26,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_hlt_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_hlt_fw.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_hlt_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_hlt_mp.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_truly_fw.bin \
-    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_truly_mp.bin
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_truly_mp.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/rgx.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.fw \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/rgx.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.sh
 
 PRODUCT_PACKAGES += \
     libfmjni
