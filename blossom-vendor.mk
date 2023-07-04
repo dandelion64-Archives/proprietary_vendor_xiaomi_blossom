@@ -6,8 +6,13 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/blossom
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/Conf_MultipleTest_aa.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/Conf_MultipleTest_aa.ini \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/Conf_MultipleTest_ab.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/Conf_MultipleTest_ab.ini \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/Himax_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_firmware.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/Himax_mpfw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/Himax_mpfw.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/WIFI_RAM_CODE_soc1_0_1_1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI_RAM_CODE_soc1_0_1_1.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/chipone-tddi-tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/chipone-tddi-tianma.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/chipone-tddi-truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/chipone-tddi-truly.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
@@ -28,7 +33,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_truly_fw.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/novatek_ts_truly_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_truly_mp.bin \
     vendor/xiaomi/blossom/proprietary/vendor/firmware/rgx.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.fw \
-    vendor/xiaomi/blossom/proprietary/vendor/firmware/rgx.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.sh
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/rgx.sh:$(TARGET_COPY_OUT_VENDOR)/firmware/rgx.sh \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn82_firmware.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc1_0_patch_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_patch_mcu_1_1_hdr.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc1_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_bt_1_1_hdr.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc1_0_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_mcu_1_1_hdr.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc1_0_ram_wifi_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc1_0_ram_wifi_1_1_hdr.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc3_0_ram_bt_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1_1_hdr.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc3_0_ram_bt_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_bt_1a_1_hdr.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc3_0_ram_mcu_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_1_1_hdr.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc3_0_ram_mcu_1a_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_1a_1_hdr.bin \
+    vendor/xiaomi/blossom/proprietary/vendor/firmware/soc3_0_ram_mcu_e1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc3_0_ram_mcu_e1_hdr.bin
 
 PRODUCT_PACKAGES += \
     libfmjni
